@@ -53,7 +53,7 @@ Website is created by me and I do everything that is in my limited power to make
 The easiest way to install Leta Change YouTube Quality is straight from your browser's official store:
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Install-blue)](https://chromewebstore.google.com/detail/leta-change-youtube-quali/iicmajmmmpjamdoejdojhmheabibdpig)
-[![Edge Add-ons](https://img.shields.io/badge/Edge%20Addons-Install-blue)](https://microsoftedge.microsoft.com/addons/detail/leta-change-youtube-quality/00000000-0000-0000-0000-000000000000)
+[![Edge Add-ons](https://img.shields.io/badge/Edge%20Addons-Install-blue)](https://microsoftedge.microsoft.com/addons/detail/leta-change-youtube-quality/ADD-THIS-LATER)
 
 Brave and other Chromium-based browsers can use the Chrome Web Store link above too.
 
@@ -111,7 +111,7 @@ That's genuinely all of it - no `<all_urls>`, no `tabs`, no `cookies`, no `scrip
 - Exactly two values are ever stored, using the browser's own `chrome.storage.sync`: your preferred quality, and the on/off state
 - No remote code loading - the full source ships inside the installed package, nothing is fetched or evaluated at runtime
 - No cross-origin requests - the content scripts only ever touch the DOM of the current YouTube tab, and only read publicly available video-player information (no account details, watch history, or comments)
-- Full details live in the [Privacy Policy](Privacy_Policy.html), also hosted at [letalab.eu](https://letalab.eu)
+- Full details live in the [Privacy Policy](https://letalab.eu/LetaChangeYouTubeQuality/Privacy_Policy.html), also hosted at [https://LetaLab.eu](https://letalab.eu)
 
 ## Known issues and support
 
@@ -144,8 +144,8 @@ Running into that, or anything else that doesn't behave the way it should? Open 
 
 ## License
 
-MIT - see [`extension/LICENSE`](extension/LICENSE)
+MIT - see [`LICENSE`](LICENSE)
 
 ## Credits
 
-Built by [LetaLab](https://letalab.eu) - a small collection of tools built for actual daily use.
+Built by [LetaLab.eu](https://letalab.eu) - a small collection of tools built for actual daily use.
